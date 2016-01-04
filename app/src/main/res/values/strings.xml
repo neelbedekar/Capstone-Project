@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quickshare</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="username_message">Welcome to QuickShare! Please enter a username of 15
+        characters or less.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_phone">Phone</string>
+    <string name="linkedin_id">LinkedIn ID</string>
+    <string name="twitter_handle">Twitter Handle</string>
+    <string name="address">Address</string>
+    <string name="email_address">Email Address</string>
+    <string name="facebook_id">Facebook ID</string>
+    <string name="snapchat_id">Snapchat ID</string>
+    <string name="add_image_string">Add Contact Image:</string>
+    <string name="change_image_string">Change Image:</string>
+    <string name="detail_delete">Delete Contact</string>
+
+    <string name="location_receiver">com.neelbedekar.receiver</string>
+    <string name="fab_string">true</string>
+    <string name="title_activity_add_contact">Add Contact</string>
+    <string name="title_fragment_contacts_list">List of Contacts</string>
+    <string name="map_string">View in map!</string>
+
+    <string name="contact_image_content_description">Contact Image</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="contact_widget">Contact Widget</string>
+    <string name="quickshare_widget">Quickshare</string>
+    <string name="title_activity_startup">StartupActivity</string>
+    <string name="action_share">Share</string>
+</resources>

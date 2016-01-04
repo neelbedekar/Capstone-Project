@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tool_bar_elevation">4dp</dimen>
+    <dimen name="welcome_message_margin">100dp</dimen>
+    <dimen name="contacts_margin">20dp</dimen>
+    <dimen name="contact_padding_below">85dp</dimen>
+    <dimen name="fab_padding_below">100dp</dimen>
+    <dimen name="scrollview_contact_height">230dp</dimen>
+    <dimen name="text_image_margin">210dp</dimen>
+    <dimen name="add_image_margin">150dp</dimen>
+    <dimen name="display_text_size">20sp</dimen>
+    <dimen name="image_preview_text_margin_bottom">75dp</dimen>
+    <dimen name="image_preview_margin_bottom">50dp</dimen>
+    <dimen name="image_preview_dimensions">75dp</dimen>
+    <dimen name="list_item_margin">10dp</dimen>
+    <dimen name="list_item_phone_margin">5dp</dimen>
+</resources>
