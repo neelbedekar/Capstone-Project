@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/contacts_margin"
-        android:contentDescription="@string/detail_delete"
+        android:contentDescription="@string/delete_button_content_description"
         android:src="@drawable/ic_delete"
         android:layout_alignParentEnd="true" />
     <TextView
@@ -151,6 +151,7 @@
                 </LinearLayout>
             </LinearLayout>
             <Button
+                android:contentDescription="@string/view_map_content_description"
                 android:id="@+id/map_button"
                 android:layout_width="100dp"
                 android:layout_height="60dp"

@@ -12,8 +12,17 @@ android {
         versionName "1.0"
         multiDexEnabled true
     }
+    signingConfigs {
+        release {
+            storeFile file("quickshare_keystore.jks")
+            storePassword "neel1N{}"
+            keyAlias "NeelQuickshareKey"
+            keyPassword "neel1N{}"
+        }
+    }
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }

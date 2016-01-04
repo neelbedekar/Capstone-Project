@@ -11,6 +11,7 @@
 
 
         <TextView
+            android:contentDescription="@string/contact_widget"
             android:background="@color/colorPrimary"
             android:id="@+id/widget_high_temperature"
             android:layout_width="100dp"

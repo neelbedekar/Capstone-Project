@@ -4,13 +4,13 @@
     android:layout_height="match_parent"
     tools:context=".ContactListFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_gravity="center_horizontal|top">
         <ImageButton
+            android:contentDescription="@string/search_content_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/searchButton"

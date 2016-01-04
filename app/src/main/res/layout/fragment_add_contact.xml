@@ -86,6 +86,7 @@
         android:layout_gravity="center_horizontal|bottom"
         android:layout_marginBottom="@dimen/text_image_margin"/>
     <ImageButton
+        android:contentDescription="@string/take_photo_content_description"
         android:id="@+id/camera_image_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -118,11 +119,12 @@
         android:id="@+id/image_preview_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Image Preview:"
+        android:text="@string/image_preview_string"
         android:layout_gravity="bottom|start"
         android:layout_marginStart="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/image_preview_text_margin_bottom"/>
     <ImageView
+        android:contentDescription="@string/image_preview_content_description"
         android:layout_width="@dimen/image_preview_dimensions"
         android:layout_height="@dimen/image_preview_dimensions"
         android:id="@+id/image_preview_imageview"
